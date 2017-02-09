@@ -3,6 +3,7 @@ android:
   components:
   - platform-tools
   - tools
+  - build-tools-25.0.2
 jdk:
 - oraclejdk8
 branches:
