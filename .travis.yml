@@ -1,0 +1,16 @@
+language: android
+android:
+  components:
+  - platform-tools
+  - tools
+  - build-tools-25.0.2
+  - android-25
+jdk:
+- oraclejdk8
+branches:
+  only:
+  - master
+script: "./travis-build.sh"
+env:
+  matrix:
+  - secure: aOblqPK/k9tzu7SBvMFtnCOuww32aYDuGIHypJh1LBM6SzGKDaYw3wQ3NCYfur8Pv0dOnab21+KbeB58DbsNeDwJxrs27whVOi0MwRdqkYPshLZ+QwivFRzMgCQueEIpjOdfofUF5BLmTtCqVuLjjT2ROL65u/RATHqGOT73Zat4XeSM0eaKIYo0lm21daxLR/pTj45G6FKc2tgPPCXC1inlU+Lv87qYUtpZIb2LMRcNKOuU7qeVGSqJNo6qQ7k1v4gGPKvwEQQaXmvIwksXkzX+jzaMaLqolNVYDKGljPCrGxpcg29NkW1UNgNPp22DH1TXhf4Nr235Z6hdJNAjNz5JKLELjyW40yMqv5JnUs4fdgOVOcrREvJth3gzD6Zgsmf7AHWxisuQ3Q3nxus03nqK/CmkudJb5o2GPx5HQCuTl+akNGLoHL8Mc6IszI/VIzSq4jFKILaEpmTlo1Fj6ZW9XC1XmIrVcoBch/6eIZ6fA0kGsR9bQY+mhi5VsgBuE1jB66/O8b/meAKRWBxL+t+S2n0NronfU3OLY2S6ZH1XibI++Y3zyxXk5Q4RCt51cSGZ997bln1a14c5/O+Trwdfmum90izZD++Z1AShwuRpgQe0Ho34raNHZemZQ7j3wiC+RBHncF1XY+G4EM/uFBjrXEisR01MCEQcUP7OExI=
